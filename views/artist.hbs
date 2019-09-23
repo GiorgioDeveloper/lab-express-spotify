@@ -1,0 +1,9 @@
+<h1>Results for: </h1>
+
+{{#each singer}}
+<div class="singer">
+    <p><img src="{{ images.[1].url }}"></p>
+    <p>{{ name }}</p>
+    <a href="/artist/albums/{{id}}">View Albums</a>
+</div>
+{{/each}}

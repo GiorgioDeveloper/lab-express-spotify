@@ -1,0 +1,9 @@
+<h1>Discography: </h1>
+
+{{#each albums}}
+<div class="albums">
+    <p><img src="{{ images.[1].url }}"></p>
+    <p>{{ name }}</p>
+    <a href="/artist/tracks/{{id}}">View Tracks</a>
+</div>
+{{/each}}
